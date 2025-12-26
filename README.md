@@ -13,8 +13,8 @@
 
 ## 📸 Live Demo
 
-> **[infinity-scroll-react-tau.vercel.app](#)** _(Infinity_Scroll_Project)_
->
+### 🚀 [Live Demo: Infinity Scroll Project](https://infinity-scroll-react-tau.vercel.app)
+
 > ![Default Page](/public/screenshot.png)
 
 ---
