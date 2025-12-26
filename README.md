@@ -15,7 +15,7 @@
 
 > **[infinity-scroll-react-tau.vercel.app](#)** _(Infinity_Scroll_Project)_
 >
-> ![Default Page](/screenshot.png)
+> ![Default Page](/public/screenshot.png)
 
 ---
 
