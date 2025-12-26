@@ -15,7 +15,7 @@
 
 > **[infinity-scroll-react-tau.vercel.app](#)** _(Infinity_Scroll_Project)_
 >
-> ![ডিফল্ট পেজ](./screenshot.png)
+> [ডিফল্ট পেজ](./screenshot.png)
 
 ---
 
@@ -132,5 +132,5 @@ src/
 ---
 
 <div align="center">
-  <p>Made with ❤️ by a Frontend Engineer <a href="https://github.com/Mahmudulislamshuvo">Mahmudul Islam</a></p>
+  <p>Made with ❤️ by a Frontend Engineer <a href="https://www.linkedin.com/in/mahmudul-islam-shuvo/">Mahmudul Islam</a></p>
 </div>
