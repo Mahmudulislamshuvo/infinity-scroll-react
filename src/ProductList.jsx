@@ -10,7 +10,7 @@ const productLimit = 10;
 // --- Main Layout Component ---
 const ProductList = () => {
   const [products, setProducts] = useState([]);
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(0);
   const [hasMore, setHasMore] = useState(true);
   const loaderRef = useRef(null);
 
@@ -24,6 +24,8 @@ const ProductList = () => {
         }`
       );
       const data = await response.json();
+      console.log(data);
+
       // Check if there are more products to load
       if (data.products.length === 0) {
         setHasMore(false);
@@ -69,16 +71,14 @@ const ProductList = () => {
             Discover our latest collection of premium products.
           </p>
         </div>
-
         {/* Product Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8">
           {products?.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
-
         {/* Footer Loader Section */}
-        <FooterLoader ref={loaderRef} />
+        {hasMore && <FooterLoader ref={loaderRef} />}
       </main>
     </div>
   );

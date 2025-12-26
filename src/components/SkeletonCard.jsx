@@ -1,8 +1,6 @@
-import React from 'react';
-
 const SkeletonCard = () => (
   <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
-    <div className="aspect-[4/3] bg-slate-200 animate-pulse" />
+    <div className="aspect-4/3 bg-slate-200 animate-pulse" />
     <div className="p-5 space-y-4">
       <div className="h-6 bg-slate-200 rounded w-3/4 animate-pulse" />
       <div className="space-y-2">
